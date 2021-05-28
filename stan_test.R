@@ -36,7 +36,7 @@ ggplot(ABC,aes(x = response, y = fct_rev(condition))) +
   geom_point(alpha = 0.5) +
   ylab("condition")
 
-ABC_stan<-stan_model(file="C:/Users/Magdalena/Documents/fixEf.stan")
+ABC_stan<-stan_model(file="C:/Users/Magdalena/Documents/hdx_fixEf.stan")
 
 print(compose_data(ABC))
 
